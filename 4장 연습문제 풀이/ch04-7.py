@@ -3,6 +3,7 @@ content = f1.read()
 print("[원래 내용]\n" + content, end='\n')
 f1.close()
 
+# 'java' 문자열을 'python'으로 바꾸어 변수에 저장
 content = content.replace("java", "python")
 
 f2 = open("test.txt", 'w')
